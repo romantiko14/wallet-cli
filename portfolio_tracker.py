@@ -15,7 +15,7 @@ RPC_ENDPOINTS = {
 class PortfolioTracker:
     def __init__(self, config_file):
         """Initialize the portfolio tracker with config file"""
-        with open(config_file, 'r') as f:
+        with open(config_file, 'r', encoding='utf-8-sig') as f:
             self.config = json.load(f)
         
         self.owner = self.config['owner']
