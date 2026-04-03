@@ -1,0 +1,26 @@
+name: Portfolio Auto-Tracker
+
+on:
+  schedule:
+    # This runs the script every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # This button lets you run it manually anytime
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install web3 requests
+
+      - name: Run Tracker Script
+        run: python portfolio_tracker.py
