@@ -3,5 +3,9 @@
   "github_username": "romantiko14",
   "primary_wallet": "0x747E150d20ee9d1C69C0928897F11cD97A0E19c5",
   "secondary_wallet": "0xb9e76a29d370f0a59510973d4022f7833ddb200b",
-  "networks": ["Ethereum", "BNB Smart Chain", "Polygon"]
+  "networks": [
+    "Ethereum",
+    "BNB Smart Chain",
+    "Polygon"
+  ]
 }
