@@ -1,0 +1,19 @@
+{
+  "proof_metadata": {
+    "version": "1.1",
+    "network": "Tron (TRC20)",
+    "verification_method": "Cryptographic Signature",
+    "verification_status": "SUCCESS"
+  },
+  "ownership_authentication": {
+    "address": "TTQPjKPzw1wZjce8n4sKAUkH27DZ3zjDpV",
+    "signed_message": "Ownership of 5b962f50aa69d83d313e59af6121b816f574b615e1961c630bb3ee0a07d5c523",
+    "signature": "0x3e164f9cca0517ab8b2f6e41317f2925b8cfcba7b7294ac4db3bf96a2a65d1ad51fe206ed571f8869a8a22620d3e6b169e9383c70b239f4b6f2e18138793d0e91b"
+  },
+  "transaction_details": {
+    "hash": "5b962f50aa69d83d313e59af6121b816f574b615e1961c630bb3ee0a07d5c523",
+    "token": "USDT",
+    "amount": "200.00",
+    "timestamp": "2026-01-24"
+  }
+}
