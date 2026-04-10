@@ -2690,3 +2690,6 @@ wallet> GetPrivateKeyByMnemonic
 
 Please enter 12 or 24 words (separated by spaces) [Attempt 1/3]:
 ```
+## Ownership Verification
+
+This repository includes a proof of on-chain ownership. See <a href="ownership_proof.json">ownership_proof.json</a> for details.
