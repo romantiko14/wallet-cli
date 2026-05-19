@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Wallet App</title>
+  </head>
+  <body>
+    <appkit-button />
+
+    <script type="module">
+      import { createAppKit } from 'https://esm.sh/@reown/appkit'
+      import { EthersAdapter } from 'https://esm.sh/@reown/appkit-adapter-ethers'
+      import { mainnet, arbitrum } from 'https://esm.sh/@reown/appkit/networks'
+
+      createAppKit({
+        adapters: [new EthersAdapter()],
+        networks: [mainnet, arbitrum],
+        projectId: 'f766b793d68858ee34e4b6839766d87d',
+        metadata: {
+          name: 'Wallet CLI UI',
+          description: 'Web interface for my project',
+          url: 'https://github.com/romantiko14/wallet-cli',
+          icons: []
+        }
+      })
+    </script>
+  </body>
+</html>
